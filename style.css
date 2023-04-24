@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: #EFF1FF;
+  display: grid;
+  justify-items: center;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background: #8E9AAF;
+  height: 35rem;
+}
+
+header img {
+  margin: 3.2rem;
+}
+
+header h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 4rem;
+  letter-spacing: 0.05em;
+  color: white;
+  background: #CBC0D3;
+  padding: .8rem;
+}
+
+main {
+  padding: 1.4rem 3.2rem 6rem;
+  text-align: center;
+}
+
+main p {
+  font-family: 'Palaquin', sans-serif;
+  color: #23053A;
+  margin-bottom: 5rem;
+}
+
+.shelf {
+  display: grid;
+  justify-items: center;
+  gap: 3.2rem;
+}
+
+.product {
+  position: relative;
+}
+
+.product h1 {
+  position: absolute;
+  font-size: 2rem;
+  top: 1.6rem;
+  right: 1.6rem;
+  background: #FEEAFA;
+  border-radius: 2rem;
+  font-family: 'Staatliches',sans-serif;
+  color: #4A4E69;
+  padding: .3rem;
+  width: 11rem;
+  display: flex;
+  justify-content: center;
+}
